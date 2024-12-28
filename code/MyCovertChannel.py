@@ -86,7 +86,7 @@ class MyCovertChannel(CovertChannelBase):
         
 
         self.log_message(decoded_message, log_file_name)
-        print(f"Decoded message: {decoded_message}")
+        
 
         return decoded_message
 
