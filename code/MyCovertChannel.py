@@ -33,6 +33,7 @@ class MyCovertChannel(CovertChannelBase):
         t2 = time.time()
         total_time = t2 - t1
         capacity = 128 / total_time
+        # print(capacity)
 
     def receive(self, log_file_name, destination_ip, mul1, mul2):
         received_bits = []
